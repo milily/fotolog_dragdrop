@@ -71,7 +71,7 @@ function agregaPosteo() {
 }
 
 function drag(ev) {
-  console.log(ev.target.src);
+  console.log(ev.target.id);
   ev.dataTransfer.setData('text', ev.target.id);
 }
 
